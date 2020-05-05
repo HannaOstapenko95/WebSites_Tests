@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Buy want you want today</h1>
+    <p class="lead">Our personal loans have some of the best rates available and are easy to apply for!</p>
+    <p><a id="startApplication" href="@Url.Action("StartLoanApplication", "Home")" class="btn btn-primary btn-lg">Apply Now! &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Best rates</h2>
+        <p>
+            We have great rates so you pay less.
+        </p>
+        <p><a href="@Url.Action("StartLoanApplication", "Home")" class="btn btn-default">Apply Now! &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Easy application</h2>
+        <p>Just a few clicks and your application is done.</p>
+        <p><a href="@Url.Action("StartLoanApplication", "Home")" class="btn btn-default">Apply Now! &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Quick payments</h2>
+        <p>Once you application is approved, get your money the next day.</p>
+        <p><a href="@Url.Action("StartLoanApplication", "Home")" class="btn btn-default">Apply Now! &raquo;</a></p>
+    </div>
+</div>
